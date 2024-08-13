@@ -1,0 +1,5 @@
+- hosts: narvee4.abc.com
+  remote_user: root
+  become: yes
+  roles:
+    -  geerlingguy.git
